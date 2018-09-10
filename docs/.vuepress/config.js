@@ -10,5 +10,13 @@ module.exports = {
             ['','首页']
         ],
         lastUpdated: 'Last Updated',
+    },
+    base:'/project/',
+    configureWebpack: {
+        resolve: {
+            alias: {
+                '@alias': 'path/to/some/dir'
+            }
+        }
     }
 }
